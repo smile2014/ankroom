@@ -1,5 +1,6 @@
-import {Component} from 'angular2/core';
-import {Router} from 'angular2/router';
+import {Component} from 'angular/core';
+import {Router} from 'angular/router';
+
 @Component({
     selector : 'normalSignup',
     templateUrl : './pages/member/signup/normalSignup/normalSignup.html'

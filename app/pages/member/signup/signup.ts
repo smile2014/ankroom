@@ -1,16 +1,17 @@
-import {Component} from 'angular2/core';
-import {Router} from 'angular2/router';
+import {Component} from 'angular/core';
+import {Router} from 'angular/router';
+
 @Component({
     selector : 'signup',
     templateUrl : './pages/member/signup/signup.html'
 })
 
 export class SignupCmp {
-    constructor( private _router: Router) {}
+    constructor( private router: Router) {}
     gotonormalSignup() {
-        this._router.navigate(['normalSignup']);
+        this.router.navigate(['normalSignup']);
     }
     gotobusinessSignup() {
-        this._router.navigate(['businessSignup']);
+        this.router.navigate(['businessSignup']);
     }
 }

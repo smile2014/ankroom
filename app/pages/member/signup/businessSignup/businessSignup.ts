@@ -1,5 +1,5 @@
-import {Component} from 'angular2/core';
-import {Router} from 'angular2/router';
+import {Component} from 'angular/core';
+import {Router} from 'angular/router';
 @Component({
     selector : 'businessSignup',
     templateUrl : './pages/member/signup/businessSignup/businessSignup.html'
@@ -8,3 +8,4 @@ import {Router} from 'angular2/router';
 export class businessSignupCmp {
 
 }
+
